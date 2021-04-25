@@ -10,4 +10,4 @@
 
 | Название проекта | Описание | Используемые библиотеки | 
 | :---------------------- | :---------------------- | :---------------------- |
-| [Отток клиентов](games) | Нужно спрогнозировать, уйдёт клиент из банка в ближайшее время или нет. | *pandas, functools, matplotlib, numpy, seaborn, scipy* |
+| [Отток клиентов](https://github.com/limenbah/Customer-churn/tree/main/Customer-churn) | Нужно спрогнозировать, уйдёт клиент из банка в ближайшее время или нет. | *pandas, functools, matplotlib, numpy, seaborn, scipy* |
