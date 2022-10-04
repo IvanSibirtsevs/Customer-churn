@@ -10,7 +10,7 @@ Build a model with an extremely large F1-measure. It is necessary to bring the m
 - Improving the quality of the model, given the imbalance of classes. Training different models and finding the best one.
 - Testing: final testing.
 
-***Signs:***
+***Features:***
 - `RowNumber` - row index in the data
 - `CustomerId` - unique customer ID
 - `Surname` - surname
@@ -24,5 +24,5 @@ Build a model with an extremely large F1-measure. It is necessary to bring the m
 - `HasCrCard` - the presence of a credit card
 - `IsActiveMember` - client activity
 - `EstimatedSalary` - estimated salary
-- ***Target feature***
+- ***Target***
 - `Exited` - the fact that the client left
