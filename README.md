@@ -1,12 +1,12 @@
-# Отток клиентов банка
+# Outflow of bank customers
 
-*Из «Бета-Банка» стали уходить клиенты. Каждый месяц. Немного, но заметно. Банковские маркетологи посчитали: сохранять текущих клиентов дешевле, чем привлекать новых.
-Нужно спрогнозировать, уйдёт клиент из банка в ближайшее время или нет. Мне предоставлены исторические данные о поведении клиентов и расторжении договоров с банком.
-Постройте модель с предельно большим значением F1-меры. Нужно довести метрику до 0.59.
+*Clients began to leave Beta-Bank. Every month. A little, but noticeable. Banking marketers figured it was cheaper to keep current customers than to attract new ones.
+It is necessary to predict whether the client will leave the bank in the near future or not. I have been provided with historical data on customer behavior and termination of agreements with the bank.
+Build a model with an extremely large F1-measure. It is necessary to bring the metric to 0.59.
 
-## Описания проекта
+## Project descriptions
 
 
-| Название проекта | Описание | Используемые библиотеки | 
-| :---------------------- | :---------------------- | :---------------------- |
-| [Отток клиентов](https://github.com/limenbah/Customer-churn/tree/main/Customer-churn) | Нужно спрогнозировать, уйдёт клиент из банка в ближайшее время или нет. | *pandas, functools, matplotlib, numpy, seaborn, scipy* |
+| Project name | Description | Used Libraries |
+| :--------------------- | :--------------------- | :--------------------- |
+| [Customer Churn](https://github.com/limenbah/Customer-churn/tree/main/Customer-churn) | It is necessary to predict whether the client will leave the bank in the near future or not. | *pandas, functools, matplotlib, numpy, seaborn, scipy* |
