@@ -1,28 +1,28 @@
-# Отток клиентов банка
+# Outflow of bank customers
 
-*Из «Бета-Банка» стали уходить клиенты. Каждый месяц. Немного, но заметно. Банковские маркетологи посчитали: сохранять текущих клиентов дешевле, чем привлекать новых.
-Нужно спрогнозировать, уйдёт клиент из банка в ближайшее время или нет. Мне предоставлены исторические данные о поведении клиентов и расторжении договоров с банком.
-Постройте модель с предельно большим значением F1-меры. Нужно довести метрику до 0.59.
+Clients began to leave Beta-Bank. Every month. A little, but noticeable. Banking marketers figured it was cheaper to keep current customers than to attract new ones.
+It is necessary to predict whether the client will leave the bank in the near future or not. I have been provided with historical data on customer behavior and termination of agreements with the bank.
+Build a model with an extremely large F1-measure. It is necessary to bring the metric to 0.59.
 
 
-- Загрузка и подготовка данных.
-- Исследование баланса классов, обучение модели без учёта дисбаланса. Краткое описание выводов.
-- Улучшение качества модели, учитывая дисбаланс классов. Обучение разных моделей и найдение лучшей.
-- Провка: финальное тестирование.
+- Loading and preparation of data.
+- Study of the class balance, training the model without taking into account the imbalance. Brief description of findings.
+- Improving the quality of the model, given the imbalance of classes. Training different models and finding the best one.
+- Testing: final testing.
 
-***Признаки:***
-- `RowNumber` — индекс строки в данных
-- `CustomerId` — уникальный идентификатор клиента
-- `Surname` — фамилия
-- `CreditScore` — кредитный рейтинг
-- `Geography` — страна проживания
-- `Gender` — пол
-- `Age` — возраст
-- `Tenure` — сколько лет человек является клиентом банка
-- `Balance` — баланс на счёте
-- `NumOfProducts` — количество продуктов банка, используемых клиентом
-- `HasCrCard` — наличие кредитной карты
-- `IsActiveMember` — активность клиента
-- `EstimatedSalary` — предполагаемая зарплата
-- ***Целевой признак***
-- `Exited` — факт ухода клиента
+***Signs:***
+- `RowNumber` - row index in the data
+- `CustomerId` - unique customer ID
+- `Surname` - surname
+- `CreditScore` - credit rating
+- `Geography` - country of residence
+- `Gender` - gender
+- `Age` - age
+- `Tenure` - how many years a person has been a client of the bank
+- `Balance` - account balance
+- `NumOfProducts` - the number of bank products used by the client
+- `HasCrCard` - the presence of a credit card
+- `IsActiveMember` - client activity
+- `EstimatedSalary` - estimated salary
+- ***Target feature***
+- `Exited` - the fact that the client left
